@@ -1,0 +1,9 @@
+@media screen and (max-width: 1024px) {
+  .logo__text--landing{
+    color: #ffffff;
+  }
+
+  .logo__text{
+    font-size: 2.3rem;
+  }
+}

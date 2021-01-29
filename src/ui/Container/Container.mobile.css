@@ -1,0 +1,12 @@
+@media screen and (max-width: 450px) {
+  .container {
+    padding: 0 .875rem;
+  }
+  .container--new {
+    padding: 0 0.9722rem;
+  }
+
+  .container--l-compare {
+    padding: unset;
+  }
+}

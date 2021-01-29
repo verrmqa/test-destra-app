@@ -1,0 +1,9 @@
+@media screen and (max-width: 1024px) {
+  .video{
+    height: 26.8750rem;
+  }
+
+  .video::after{
+    content: unset;
+  }
+}

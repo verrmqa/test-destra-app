@@ -1,0 +1,37 @@
+.textarea__section-label { padding: 0 0 .5625rem 0; }
+.textarea__label {
+  font-size: .75rem;
+  font-weight: 500;
+
+  color: #c2c5c8;
+}
+
+.textarea__field {
+  display: block;
+
+  width: 100%;
+  min-height: 6.25rem;
+
+  position: relative;
+
+  border-radius: .25rem;
+  -moz-border-radius: .25rem;
+  -webkit-border-radius: .25rem;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+  resize: vertical;
+}
+
+
+.textarea__field--default { background-color: #ffffff; }
+.textarea__field--gray-border { border: .0625rem solid #d8dcdf; }
+
+.textarea__field-medium { padding: 1rem; }
+.textarea__field-not-resize { padding: 1rem; resize: none;  overflow: scroll;}
+
+.textarea__field--error{border: .0625rem solid red;}

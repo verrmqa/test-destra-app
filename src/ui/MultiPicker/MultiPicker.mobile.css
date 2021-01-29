@@ -1,0 +1,13 @@
+@media screen and (max-width: 450px) {
+  .multipicker{
+    width: 15.9722rem;
+  }
+  .multipicker__item {
+    height: unset;
+    padding: .6rem 1.3889rem;
+  }
+
+  .multipicker__item__section-title{
+    width: 10rem;
+  }
+}

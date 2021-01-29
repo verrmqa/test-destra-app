@@ -1,0 +1,14 @@
+@media screen and (max-width: 1024px) {
+  .auth {
+    padding: 7.2222rem 0 0 0;
+    align-items: unset;
+    min-height: unset;
+  }
+  .auth__section-form{
+    width: 30.5556rem;
+    display: flex;
+    justify-content: center;
+    padding: 2.15rem 0;
+  }
+
+}

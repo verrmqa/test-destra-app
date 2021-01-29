@@ -1,0 +1,32 @@
+.registration-lock{
+  display: flex;
+  align-items: center;
+  padding: 1.5277rem 0;
+  border-top: .0625rem solid #d8dcdf;
+  border-bottom: .0625rem solid #d8dcdf;
+}
+
+.registration-lock__section--icon{
+  width: 2.1527rem;
+  padding: 0 2.0833rem 0 0;
+}
+
+.registration-lock__section--title{
+  max-width: 21.3888rem;
+}
+
+.registration-lock__message{
+  font-size: 1.1111rem;
+  font-weight: 500;
+  line-height: 1.5277rem;
+}
+
+.registration-lock__section--button{
+  margin-left: auto;
+}
+
+.registration-lock__section--input{
+  min-width: 17.3611rem;
+  margin: 0 1.3888rem 0 6.8611rem;
+  margin-bottom: -1.2rem;
+}

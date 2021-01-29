@@ -1,0 +1,40 @@
+.tag {
+  display: inline-block;
+  vertical-align: middle;
+
+  padding:.1875rem .625rem;
+
+  border-radius: 1.875rem;
+  -moz-border-radius: 1.875rem;
+  -webkit-border-radius: 1.875rem;
+
+  font-size: .875rem;
+  font-weight: 400;
+
+  cursor: pointer;
+
+  transition: ease .5s;
+}
+.tag--default {
+  background-color: #ffffff;
+  color:#3f3f46;
+}
+.tag--blank {
+  border: .0625rem solid #ffffff;
+  color:#ffffff;
+}
+.tag--gray {
+  border: .0625rem solid rgba(18,18,18,.4);
+  color:rgba(18,18,18,.4);
+}
+
+.tag--blue {
+  border: 1px solid rgba(94, 156, 223, 0.4);
+  color: #5E9CDF;
+  padding: 0.5556rem;
+}
+
+.tag--blue:hover {
+  border: 1px solid #5E9CDF;
+}
+

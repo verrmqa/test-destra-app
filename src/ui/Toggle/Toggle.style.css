@@ -1,0 +1,46 @@
+.toggle {
+  display: inline-block;
+
+  border: .0625rem solid #d8dcdf;
+
+  border-radius: 1.09375rem;
+  -moz-border-radius: 1.09375rem;
+  -webkit-border-radius: 1.09375rem;
+
+  height: 1.25rem;
+  width: 3.5rem;
+
+  cursor: pointer;
+
+  position: relative;
+
+  transition: .3s ease;
+}
+.toggle--active { 
+  background-color: #4d92dc 
+}
+
+.toggle::after {
+  content: '';
+
+  display: block;
+
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+
+  background-color: #ffffff;
+  border:.0625rem solid #d8dcdf;
+
+  width: 1.75rem;
+  height: 1.75rem;
+
+  transition: .3s ease;
+
+  position: absolute;
+  top:-.3rem;
+}
+.toggle--active::after { left: 1.75rem; }
+.toggle--inactive::after { left: -.05rem; }
+
+.toggle__hidden { display: none; }

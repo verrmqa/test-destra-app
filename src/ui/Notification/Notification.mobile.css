@@ -1,0 +1,19 @@
+@media screen and (max-width: 450px) {
+  .notification__item{
+    min-width: 24.7rem;
+    min-height: 3.75rem;
+  }
+
+  .notification__item__section-text {
+    width: 17.2rem;
+  }
+
+  .notification__item__section-button {
+    padding: .55rem 0 0 0;
+  }
+
+  .notification__item__text {
+    font-size: 0.834rem;
+    line-height: 1.3rem;
+  }
+}

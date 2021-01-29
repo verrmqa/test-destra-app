@@ -1,0 +1,22 @@
+@media screen and (max-width:450.9px) {
+  .registration-lock{
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1.4583rem 0;
+  }
+
+  .registration-lock__section--button {
+    padding: 1.5277rem 0 0 0;
+    margin-left: unset;
+  }
+
+  .registration-lock__section--icon {
+    width: 2.1527rem;
+    height: 2.7083rem;
+    padding: 0 1.25rem 0 0;
+  }
+  
+  .registration-lock__section--title {
+    max-width: 19.3888rem;
+  }
+}

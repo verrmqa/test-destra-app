@@ -1,0 +1,27 @@
+.logo {
+  position: relative;
+
+  display: block;
+}
+
+.logo__item{
+  fill: #ffffff;
+}
+.logo__src { display: block; }
+
+.logo__src__fill--default { fill: #ffffff; }
+.logo__src__fill--black { fill: #181818; }
+
+.logo__text {
+  font-weight: 500;
+  font-family: Stem, sans-serif;
+  font-size: 1.9375rem;
+
+  letter-spacing: .025rem;
+}
+.logo__text--default { color:#ffffff; }
+.logo__text--black { color:#181818; }
+
+.logo--contacts .logo__item{
+  fill: #181818;
+}

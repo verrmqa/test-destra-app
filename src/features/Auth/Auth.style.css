@@ -1,0 +1,17 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 60rem;
+}
+.auth__section-form {
+  box-sizing: border-box;
+  border-radius: .375rem;
+  -moz-border-radius: .375rem;
+  -webkit-border-radius: .375rem;
+
+  padding: 4.8611rem;
+
+  background-color: #ffffff;
+}

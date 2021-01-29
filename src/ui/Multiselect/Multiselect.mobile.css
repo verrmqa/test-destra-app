@@ -1,0 +1,9 @@
+@media screen and (max-width: 450px) {
+  .multiselect{
+    display: block;
+  }
+  .multiselect__section{
+    padding: 0 0 1.3888rem 0;
+    margin-bottom: unset;
+  }
+}

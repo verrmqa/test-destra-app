@@ -1,0 +1,13 @@
+@media screen and (max-width:450px) {
+  .pick-list__item,
+  .pick-list__item:last-child{
+    margin: .55rem;
+    padding: .55rem;
+    box-sizing: border-box;
+  }
+
+  .pick-list__title,
+  .pick-list__description{
+    font-weight: 400;
+  }
+}

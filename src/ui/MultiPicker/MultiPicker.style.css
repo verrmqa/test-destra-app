@@ -1,0 +1,55 @@
+
+.multipicker{
+  width: 23.6111rem;
+}
+
+.multipicker__item{
+  background-color: #F1F3F5;
+  width: 100%;
+  height: 3.4722rem;
+  padding: 0 1.3889rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0.4167rem;
+  justify-content: space-between;
+}
+
+.multipicker__section{
+  padding: 0 0 0.6944rem 0;
+}
+
+.multipicker__item--inactive:hover{
+  background-color: rgba(94, 156, 223, .15);
+}
+
+.multipicker__item--active{
+  background-color: rgba(94, 156, 223, 1);
+  color: #ffffff;
+}
+
+.multipicker__item__checkbox{
+  width: 1.6667rem;
+  height: 1.6667rem;
+  border-radius: 0.1389rem;
+  border: 0.0694rem solid #4D92DC;
+}
+
+.multipicker__item--active .multipicker__item__checkbox{
+  background-color: rgba(255, 255, 255, .2);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.0694rem solid rgba(255, 255, 255, 0);
+}
+
+.multipicker__item--active .multipicker__item__checkbox::after{
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 9 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.45215 3.09735L3.53886 5.18406L7.87501 0.8479' stroke='white' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  width: .9rem;
+  height: .5rem;
+  background-size: cover;
+  position: absolute;
+}

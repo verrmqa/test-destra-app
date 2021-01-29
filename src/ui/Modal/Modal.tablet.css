@@ -1,0 +1,9 @@
+@media screen and (max-width: 1024px) {
+  .modal__body {
+    width: auto;
+  }
+
+  .modal {
+    overflow: scroll;
+  }
+}

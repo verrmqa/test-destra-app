@@ -1,0 +1,6 @@
+@media screen and (max-width: 1024px){
+  .filter__section-button{
+    display: flex;
+    justify-content: center;
+  }
+}

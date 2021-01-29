@@ -1,0 +1,30 @@
+@media screen and (max-width: 450.9px) {
+  .or-elements {
+    flex-direction: column;
+    padding: unset;
+  }
+  .or-elements__item {
+    width: 100%;
+  }
+  .or-elements__item__section-button{
+    width: 100%;
+    padding: 1.1111rem 0 0 0;
+  }
+
+  .or-elements__item__section-text {
+    max-width: 16rem;
+  }
+
+  .or-elements__edit__section-title{
+    width: 100%;
+    padding: 0 0 1.3889rem 0;
+  }
+
+  .or-elements__edit__section-return{
+    padding: 0 0 0.9722rem 0;
+    width: 100%;
+  }
+  .or-elements__edit__section-new{
+    width: 100%;
+  }
+}

@@ -1,0 +1,7 @@
+@media screen and (max-width: 450px) {
+ 
+  .inputHoverLink__link {
+    opacity: 1;
+  }
+
+}

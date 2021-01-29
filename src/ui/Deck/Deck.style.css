@@ -1,0 +1,27 @@
+.deck {
+  display: flex;
+  padding: 7rem 0rem 7rem 10rem;
+}
+.deck__section-card {
+  margin-left: -5.75rem;
+}
+.deck__card {
+  width: 17.5rem;
+  height: 22.083rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.5);
+  background-color: var(--purple-blue);
+}
+
+.deck__card--1 {
+  background-color: var(--purple-blue);
+  transform: translateY(-3rem) rotate(-8deg);
+}
+.deck__card--2 {
+  background-color: var(--reddish-pink);
+  transform: translateY(-2rem) rotate(20deg);
+}
+.deck__card--3 {
+  background-color: var(--white);
+  transform: translateY(3rem) rotate(40deg);
+}

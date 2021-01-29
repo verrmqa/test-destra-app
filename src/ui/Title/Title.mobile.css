@@ -1,0 +1,72 @@
+@media (max-width:450.9px) {
+  h1 {
+    font-size: 1.75rem;
+    line-height: 1.46;
+  } 
+  h2 {
+    font-size: 1.75rem;
+    line-height: 1.36;
+  }
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.17;
+    font-weight: 700;
+  }
+  h4 {
+    font-size: 1rem;
+    line-height: normal;
+    font-weight: 700;
+  }
+  
+  h5 {
+    font-size: 1rem;
+  }
+  /* 
+  h6 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.7rem;
+  } */
+
+  .title--instruction {
+    font-size: 2.2222rem;
+    line-height: normal;
+  }
+  .title--calculator-page {
+    font-size: 1.75rem;
+    line-height: normal;
+  }
+
+  .title--catalog{
+    line-height: normal;
+  }
+  
+  .title--l-hero{
+    font-size: 2.4490rem;
+    font-weight: 800;
+    line-height: 2.5694rem;
+  }
+
+  .title--l-secondary{
+    font-size: 1.9592rem;
+    line-height: 2.5306rem;
+  }
+  .title--blog{
+    font-size: 1.6667rem;
+    line-height: 2.1528rem;
+  }
+  .title--reviews{
+    font-size: 2.0833rem;
+    line-height: 3.1944rem;
+  }
+
+  .title--documents{
+    font-size: 2.0833rem;
+    line-height: 2.5000rem;
+  }
+  .title--catalog-new{
+    line-height: 2.5000rem;
+    font-size: 2.0833rem;
+  }
+  .title--search-popular{font-size: 1.6667rem; line-height: 2.0139rem;}
+}

@@ -1,0 +1,91 @@
+.docCardHeader__main {
+  width: 34.7222rem;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.docCardHeader__pricing__section-title {
+  margin-bottom: 0.4167rem;
+}
+
+.docCardHeader__pricing__section-price {
+  margin-bottom: 0.5556rem;
+}
+
+.docCardHeader__price {
+  font-size: 1.6667rem;
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  line-height: 2.2917rem;
+  color: #1E1E1E;
+}
+
+.docCardHeader__price--hide {
+  height: 0.4167rem;
+  width: 5.5556rem;
+  border-radius: 0.4167rem;
+  background-color: #5e9cdf;
+  opacity: .2;
+  display: flex;
+  align-items: center;
+  margin: 0.4167rem 0 0 0;
+}
+
+.docCardHeader__price--hide::after {
+  content: '₽';
+  color: #5e9cdf;
+  font-size: 1.6667rem;
+  margin-left: 6.0417rem;
+}
+
+.docCardHeader__price__old {
+  font-size: 1.6667rem;
+  opacity: .6;
+  text-decoration: line-through;
+  margin: 0 0 0 0.6944rem;
+  font-family: 'Manrope', sans-serif;
+}
+
+.docCardHeader__price__discount {
+  background-color: #1EC28C;
+  border-radius: 6.9444rem;
+  width: 3.2639rem;
+  height: 1.5278rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8333rem;
+  margin: 0 0 0 0.9722rem;
+  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  margin-top: 0.4rem;
+}
+
+
+
+.docCardHeader__advantages__section-list {
+  position: relative;
+  margin-top: 0.2778rem;
+}
+
+.docCardHeader__list {
+  list-style: none;
+}
+
+.docCardHeader__list__item {
+  font-weight: 400;
+  font-size: 0.8333rem;
+  line-height: 0.9722rem;
+  color: #1E1E1E;
+  margin-top: 0.8333rem;
+  padding-bottom: 0;
+}
+.docCardHeader__list__item::before {
+  content: url("data:image/svg+xml,%3Csvg width='8' height='6' viewBox='0 0 10 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 4.11259L3.5991 7L9 1' stroke='%235E9CDF' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E ");
+  margin-right: 0.5556rem;
+}
+
+/* .docCardHeader__pricing__section-promocode {
+  padding-top: 0.5556rem;
+} */

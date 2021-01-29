@@ -1,0 +1,11 @@
+.icon {
+  display: block;
+  height: inherit;
+  max-width: inherit;
+  max-height: inherit;
+
+  transition: ease .5s;
+}
+.icon__zone--white {
+  fill:#ffffff;
+}

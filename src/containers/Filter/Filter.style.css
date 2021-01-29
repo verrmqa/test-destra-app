@@ -1,0 +1,18 @@
+.filter {}
+.filter__section {
+  margin: 0 0 1.45rem;
+  padding: 0 0 1.45rem;
+}
+
+.filter__section:last-child {
+  margin: 0;
+  padding: 0;
+}
+
+.filter__section:not(:last-child) {
+  border-bottom: .0625rem solid #d8dcdf;
+}
+
+.filter__section-button{
+  display: none;
+}

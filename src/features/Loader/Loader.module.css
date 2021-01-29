@@ -1,0 +1,24 @@
+.loader {
+  width: 50px;
+  height: 70px;
+
+  margin: 50px auto;
+
+  background-image: url('/src/hourglass.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    opacity: .2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}

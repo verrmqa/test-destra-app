@@ -1,0 +1,12 @@
+@media screen and (max-width: 450px) {
+  .docs-input{
+    width: 100%;
+  }
+  .docs-input__section-field{
+    margin: unset;
+  }
+  .docs-input__field{
+    padding: 0.5555rem 1rem;
+  }
+
+}

@@ -1,0 +1,39 @@
+.note {
+  background-color: #F7F7F7;
+  color: #777777;
+  border: 0.0694rem solid #DDDDDD;
+  padding: 1.1111rem;
+  margin: calc(.75rem + 14px) 0 .75rem;
+  font-size: 0.9722rem;
+  border-radius: 0.4167rem;
+  position: relative;
+  border-top-left-radius: unset;
+}
+
+.note::before{
+  content: '';
+  border-style: solid;
+  border: 12px solid transparent; 
+  border-left: 18px solid #F7F7F7;
+  position: absolute;
+  top: -12px;
+  left: 0;
+  z-index: 1;
+}
+
+.note::after {
+  content: '';
+  border: 13px solid transparent;
+  border-left: 19px solid #DDDDDD;
+  position: absolute;
+  top: -14px;
+  left: -1px;
+}
+
+.note .stage__bold {
+  padding-bottom: .75rem;
+  font-size: 0.97222rem;
+}
+.stage__block .stage__bold {
+  padding-bottom: .75rem;
+}

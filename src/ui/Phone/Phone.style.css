@@ -1,0 +1,35 @@
+.phone {
+  color:inherit;
+  display: flex;
+  align-items: center;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+
+.phone__icon {
+  width: 2.7778rem;
+  height: 2.7778rem;
+  background-color: #E2E5E7;
+  border-radius: 100%;
+  padding: 0.7639rem;
+  display: flex;
+  box-sizing: border-box;
+  margin: 0 0.9722rem 0 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone__icon .icon__zone{
+  fill: #3f3f46;
+}
+
+.phone--blue .icon__zone,
+.phone--small .icon__zone{fill: #ffffff;}
+.phone--blue .phone__section-number{color: #5E9CDF;}
+.phone--blue .phone__icon{background-color:#5E9CDF;}
+.phone--blue .phone__icon::after{border: 0.0694rem solid #5E9CDF;}
+
+.phone--small .phone__icon{background-color: transparent;}
+.phone--small .phone__icon{margin: 0 0.3472rem 0 0; height: 0.7639rem; width: 0.7639rem; padding: unset;}
+.phone--small .phone__icon::after{content: unset;}

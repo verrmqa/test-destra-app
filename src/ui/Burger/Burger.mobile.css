@@ -1,0 +1,36 @@
+@media (max-width: 450.9px) {
+  .burger {
+    top: 0;
+    right: .875rem;
+    width: 2.8472rem;
+    height: 2.8472rem;
+    border-radius: 50%;
+  }
+
+  .burger--active {
+    /* border: solid 0.1rem #5e9cdf; */
+  }
+
+  .burger__line {
+    background-color: #3f3f46;
+    height: 2px;
+    width: 1.3194rem;
+  }
+
+  .burger---black .burger__line {
+    background-color: #3f3f46;
+  }
+  .burger---instruction .burger__line {
+    background-color: #3f3f46;
+  }
+  
+  .burger--active .burger__line {
+    position: absolute;
+    top: 50%;
+    background-color: #3f3f46;
+  }
+
+  .burger__section-lines {
+    width: 1.3194rem;
+  }
+}

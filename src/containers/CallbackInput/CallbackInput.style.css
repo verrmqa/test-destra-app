@@ -1,0 +1,9 @@
+.callback-input__section-field{
+  position: relative;
+  margin: 0 0 0.9722rem 0;
+}
+
+.callback-input__section-list{
+  max-height: 15.0694rem;
+  overflow: scroll;
+}

@@ -1,0 +1,49 @@
+@media screen and (max-width:450px) {
+  .docspack {
+    margin-left: unset;
+    padding: 1rem 1rem .5rem;
+  }
+
+  .docspack__section-items{
+    flex-direction: column;
+    padding: 0 0 1.2rem 0;
+  }
+
+  .dockspack__item:nth-child(3) {
+    width: 100%;
+  }
+
+  .dockspack__item{
+    width: 100%;
+    min-height: 2.7778rem;
+    align-items: center;
+  }
+
+  .docspack__control {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .docspack__price {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .docspack__control__section-price {
+    padding: 0;
+  }
+
+  .docspack__section-control{
+    width: 100%;
+  }
+
+  .docspack__modal__section-input {
+    padding: 0 0 0.5rem 0;
+  }
+
+  .docspack__modal__section-button{
+    padding: 0 0 1rem 0;
+  }
+}

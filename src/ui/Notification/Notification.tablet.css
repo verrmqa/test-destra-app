@@ -1,0 +1,14 @@
+@media screen and (max-width: 1024px) {
+  .notification__item{
+    min-width: 30.1389rem;
+    min-height: 4.4444rem;
+  }
+  
+  .notification__item__section-text{
+    width: 21.8889rem;
+  }
+
+  .notification__item__section-button {
+    padding: .4rem 0 0 0;
+  }
+}

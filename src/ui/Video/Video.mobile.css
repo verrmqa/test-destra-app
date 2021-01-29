@@ -1,0 +1,24 @@
+@media screen and (max-width: 450px) {
+  .video{
+    height: 13.3333rem;
+  }
+  .video__preview{
+    background-size: cover;
+  }
+
+  .video__preview::before{
+    height: 4.1667rem;
+    width: 4.1667rem;
+  }
+  .video__preview::after {
+    border: .4rem solid transparent;
+    border-left: .6rem solid #5E9CDF;
+    margin-left: 0.3rem;
+  }
+
+  .video__preview:hover::before{
+    height: 5.1667rem;
+    width: 5.1667rem;
+  }
+
+}

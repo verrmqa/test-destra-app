@@ -1,0 +1,87 @@
+h1 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+h2 {
+  font-size: 3.375rem;
+  font-weight: 700;
+
+  line-height: 4.1875rem;
+}
+h3 {
+  font-size: 2.75rem;
+  font-weight: 500;
+
+  line-height: 3.625rem;
+}
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+
+  line-height: 1.8125rem;
+}
+h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+
+  text-transform: uppercase;
+}
+h6 {
+  font-size: 0.8333rem;
+  font-weight: 700;
+
+  line-height: 1.375rem;
+
+  text-transform: uppercase;
+}
+.title {
+  display: inline-block;
+
+  font-family: "Manrope", sans-serif;
+
+  transition: ease .5s;
+}
+
+.title--bold{
+  font-weight: bold;
+}
+
+.title--black { color:#2e2e2e; }
+.title--white { color:#ffffff; }
+.title--purple { color:#413560; }
+.title--transparent { color:#ffffff; opacity: .2; }
+.title--card{color:#ADB5BD; font-weight: 700; line-height: 1.3194rem;font-size: 0.9722rem;}
+.title--documents{color: #343a40; font-weight: bold; letter-spacing: .025rem; font-size: 3.0555rem;}
+
+.title-main{ font-size: 3.0555rem; }
+.title-secondary{ font-size: 2.5rem; }
+
+.title--hero{ line-height: 1.27; font-weight: 800; color: #ffffff;}
+.title--section{ line-height: 1.56; font-weight: 800;}
+.title--blue-section {line-height: 1.56; font-weight: 800; color: #ffffff;}
+.title--catalog{ font-size: 3.375rem; font-weight: 700; line-height: 4.1875rem; color: #ffffff;}
+.title--feedback{ font-size: 2.75rem; font-weight: 500; line-height: 3.625rem; }
+.title--instruction{ font-size: 2.75rem; font-weight: 500; line-height: 3.625rem;}
+.title--auth{ font-size: 0.8333rem; font-weight: 700; line-height: 1.375rem; text-transform: uppercase; }
+.title--calculator-page{ font-size: 2.75rem; font-weight: 600; line-height: 3.625rem; }
+.title--help{font-size: 1.25rem; line-height: 1.9444rem; text-transform: uppercase;}
+.title--calculator{font-size: 1.25rem; line-height: 1.9444rem; text-transform: uppercase;}
+.title--blog{font-size: 2.7778rem; font-weight: bold; line-height: 3.6111rem;}
+.title--restore{font-size: 2.0833rem; line-height: 2.7778rem; font-weight: 500;}
+.title--reviews{font-size: 3.4722rem; font-weight: bold; line-height: 4.1667rem;}
+.title--catalog-new{font-size: 3.4722rem; font-weight: bold; line-height: 4.1667rem;}
+.title--search-popular{font-size: 2.7778rem; font-weight: 700; line-height: 3.3333rem;}
+.title--l-hero{
+  font-size: 3.4722rem;
+  color: #ffffff;
+  line-height: 4.3056rem;
+  font-weight: 700;
+}
+
+.title--l-secondary{
+  font-size: 2.7778rem;
+  line-height: 3.6111rem;
+  letter-spacing: 0.0208rem;
+  color: #1e1e1e;
+  font-weight: bold;
+}

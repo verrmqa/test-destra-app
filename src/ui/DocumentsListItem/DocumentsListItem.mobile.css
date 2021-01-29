@@ -1,0 +1,6 @@
+@media screen and (max-width: 450px) {
+  .documents-list-item{
+    width: 100%;
+    margin: 0 0 1.1111rem 0;
+  }
+}

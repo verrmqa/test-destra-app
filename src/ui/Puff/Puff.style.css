@@ -1,0 +1,8 @@
+.puff {
+  display: block;
+
+  width: 100%;
+}
+.puff--default {
+  stroke: #559ce8; 
+}

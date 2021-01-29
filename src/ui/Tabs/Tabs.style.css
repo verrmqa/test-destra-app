@@ -1,0 +1,15 @@
+.tabs {
+  display: flex;
+  justify-content: space-between;
+}
+.tabs__section {
+  flex-grow: 1;
+  margin-right: 1rem;
+  padding: 1rem;
+  border-bottom: 0.25rem solid transparent;
+  text-align: center;
+  transition: border .25s ease;
+}
+.tabs__section--active {
+  border-bottom: 0.25rem solid var(--purple-blue);
+}

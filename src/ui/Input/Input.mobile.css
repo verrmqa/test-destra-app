@@ -1,0 +1,17 @@
+@media screen and (max-width: 450.9px) {
+
+  .input {
+    margin-bottom: 1rem;
+  }
+
+  .input__section-button {
+    position: absolute;
+    right: 0;
+    bottom: -1.4rem
+  }
+
+  .input__button {
+    font-size: 0.8333rem;
+  }
+
+}

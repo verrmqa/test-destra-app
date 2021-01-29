@@ -1,0 +1,159 @@
+.docspack{
+  background-color: rgba(94, 156, 223, .1);
+  border-radius: 0.2083rem;
+  padding: 1.3889rem 1.3889rem 0.6944rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 2.0833rem 0;
+}
+
+.docspack__title{
+  font-size: 1.3889rem;
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.8056rem;
+  font-weight: 500;
+}
+
+.docspack__section-title{
+  padding: 0 0 0.6944rem 0;
+}
+
+.docspack__description{
+  opacity: .6;
+  font-size: 0.9722rem;
+  line-height: 1.25rem;
+}
+
+.docspack__section-description{
+  padding: 0 0 1.6667rem 0;
+}
+
+.dockspack__item{
+  width: 13.8889rem;
+  min-height: 4.5139rem;
+  border-radius: 0.1389rem;
+  background-color: #ffffff;
+  margin: 0 0 0.6944rem 0;
+  display: flex;
+  padding: 0.6944rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.dockspack__item__title{
+  color: #5E9CDF;
+  font-size: 0.8333rem;
+  line-height: 1.0417rem;
+}
+
+.docspack__section-items{
+  display: flex;
+  flex-wrap: wrap;
+  width: 28.4722rem;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+
+.docspack__section-control{
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column-reverse;
+  padding: 0 0 0.6944rem 0;
+}
+
+.dockspack__item:nth-child(3){
+  width: 28.4722rem;
+  min-height: 2.9167rem;
+  align-items: center;
+}
+
+.docspack .link{
+  display: flex;
+}
+
+.dockspack__item__section-icon{
+  min-width: 1.1806rem;
+  margin: 0 0.6250rem 0 0;
+}
+
+.docspack__section-modal{
+  position: absolute;
+}
+
+.docspack__price{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.dockspack__price__old{
+  font-size: 0.9722rem;
+  text-decoration: line-through;
+  font-weight: 500;
+  margin: 0 0.8333rem 0 0;
+}
+
+.docspack__control__section-price{
+  padding: 0 0 1.1111rem 0;
+}
+
+.dockspack__price__new{
+  color: #5E9CDF;
+  font-weight: 500;
+  font-size: 1.6667rem;
+  line-height: 1.6667rem;
+}
+
+.docspack__modal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dockspack__modal__title{
+  font-size: 2.0833rem;
+  line-height: 2.7778rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+
+.docspack__modal__section-title{
+  padding: 0 0 1.3889rem 0;
+}
+
+.dockspack__modal__description{
+  font-size: 0.9722rem;
+  line-height: 1.8056rem;
+}
+
+.docspack__modal__section-description{
+  padding: 0 0 2.0833rem 0;
+}
+
+.docspack__modal__section-input{
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 1rem 0;
+  width: 100%;
+}
+
+.docspack__modal__section-input::before{
+  content: 'Ваше Email';
+  font-size: 0.8333rem;
+  color: #C2C5C8;
+  line-height: 1.0417rem;
+  margin: 0 0 0.6944rem 0;
+  font-weight: 500;
+}
+
+.dockspack__privacy{
+  font-size: 0.7638rem;
+  line-height: 1.3888rem;
+  color: #868e96;
+}
+
+.docspack__modal__section-privacy{
+  width: 23rem;
+}

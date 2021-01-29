@@ -1,0 +1,70 @@
+.notification{
+  overflow: hidden;
+}
+
+.notification__item{
+  min-width: 21.8750rem;
+  width: fit-content;
+  min-height: 5.8333rem;
+  background-color: rgba(37, 45, 57, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 0.4167rem;
+  display: flex;
+  align-items: center;
+  padding: 0.8333rem 1.3889rem;
+  box-sizing: border-box;
+  margin: 0 0 1rem 0;
+  transition: 1s;
+  position: relative;
+  left: 0;
+  opacity: 1;
+}
+
+.notification--new > *:last-child{
+  left: -21.8750rem;
+  opacity: 0;
+}
+
+
+.notification__item--red{
+  background-color: rgba(250, 82, 82, .6);
+}
+
+.notification__item--green{
+  background: rgba(0, 175, 118, 0.6);
+}
+
+.notification__item__section-icon{
+  min-width: 2.2222rem;
+  min-height: 2.2222rem;
+  margin: 0 0.8333rem 0 0;
+}
+
+.notification__item__text{
+  color: #ffffff;
+  font-size: 0.9722rem;
+  line-height: 1.3889rem;
+}
+
+.notification__item__section-text{
+  width: 16.8889rem;
+}
+
+.notification__item__text--bold{
+  display: inline;
+  font-weight: 500;
+}
+
+.notification__item__button{
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L11 11' stroke='white' stroke-linecap='round'/%3E%3Cpath d='M1 11L11 0.999999' stroke='white' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+  height: 0.8333rem;
+  width: 0.8333rem;
+  cursor: pointer;
+}
+
+.notification__item__section-button{
+  align-self: flex-start;
+  margin-left: auto;
+  padding: 0.5556rem 0 0 0;
+}

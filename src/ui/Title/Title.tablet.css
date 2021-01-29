@@ -1,0 +1,51 @@
+@media (max-width:1024px) {
+  h1{
+    font-size: 3rem;
+  }
+
+  .title-main{
+    font-size: 2.2222rem;
+  }
+
+  .title--hero {
+    color: #ffffff;
+  }
+  .title-secondary{
+    font-size: 2.2222rem;
+  }
+
+  .title--documents{
+    font-size: 2.2222rem;
+  }
+
+  .title--catalog{
+    font-size: 2.2222rem;
+  }
+
+  .title--card{
+    color: #adb5bd;
+  }
+
+  .title--help{
+    font-size: 1.25rem;
+  }
+
+  .title--l-hero{
+    font-size: 2.7778rem;
+    line-height: 3.4722rem;
+  }
+
+  .title--l-secondary{
+    font-size: 2.3611rem;
+    line-height: 3.0556rem;
+  }
+  .title--blog{
+    font-size: 2.3611rem;
+    line-height: 3.0556rem;
+  }
+  .title--reviews{
+    font-size: 2.7778rem;
+  }
+
+  .title--catalog-new{font-size: 2.7778rem; font-weight: bold; line-height: 3.3333rem;}
+}

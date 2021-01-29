@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding:0 3.125rem;
+  margin: 0 auto;
+  
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  
+  position: relative;
+  align-items: inherit;
+  display: inherit;
+  justify-content: inherit;
+  flex-direction: inherit;
+  flex-wrap: inherit;
+}
+
+.container--main{
+  max-width: 1440px;
+}
+.container--big{
+  max-width: 1600px;
+}
+
+.container--new,
+.container--l-compare{
+  max-width: 1260px;
+}
+.container--l-reviews,
+.container--l-help{
+  max-width: 1760px;
+}
+
+.container--full-hd{
+  max-width: 2010px;
+}

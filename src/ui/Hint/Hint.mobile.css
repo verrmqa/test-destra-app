@@ -1,0 +1,7 @@
+@media screen and (max-width: 450.9px) {
+  .hint__section-content {
+    padding: 1rem;
+    border-radius: unset;
+    width: 20rem;
+  }
+}

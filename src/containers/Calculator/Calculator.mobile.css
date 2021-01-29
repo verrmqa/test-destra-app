@@ -1,0 +1,32 @@
+@media screen and (max-width: 450.9px) {
+  .calculator {
+    padding: 1.1111rem 0;
+  }
+  .calculator__section-title {
+    padding: 0 1.1111rem;
+  }
+  .calculator__section-filter {
+    padding: 0;
+  }
+  .calculator__section-items {
+    padding: 1.1111rem 1.1111rem 0;
+  }
+  .calculator__item {
+    padding: 0 0 1.1111rem 0;
+  }
+
+  .calculator__section-result {
+    padding: 0 1.1111rem 1.1111rem;
+  }
+
+  .calculator__section-formula {
+    padding: 1.1111rem 1.1111rem 0;
+  }
+
+  .calculator__formula__item{
+    white-space: normal;
+  }
+  .calculator__date-range__input:first-child {
+    margin-bottom: 1rem;
+}
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width:1024px) { 
+  .link--help-category {
+    max-width: 22.1944rem;
+    padding: 0 2.0833rem 1rem 0;
+  }
+  .link--help-instruction {
+    padding: 0 0 1rem;
+}
+}

@@ -1,0 +1,42 @@
+/* .control { position: relative; } */
+.control__section-header { padding: 0 0 1.04rem 0; display: flex; align-items: flex-start; }
+
+.control__section-header.control__section--toggle{
+  width: 100%;
+}
+
+.control__section--toggle {
+  display: flex;
+  align-items: flex-start;
+  padding: unset;
+}
+.control__section--toggle.control__section-title {
+  width: 70%;
+
+  padding: 0 0 .625rem 0;
+}
+.control__section--toggle.control__section-element {
+  text-align: right;
+  margin-left: 1rem;
+} 
+
+.control__header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.control__header__section-title{
+  display: flex;
+  align-items: flex-start;
+}
+
+.control__header__section-hint{
+  display: flex;
+}
+
+.control--toggle {
+  display: flex;
+  justify-content: space-between;
+
+}

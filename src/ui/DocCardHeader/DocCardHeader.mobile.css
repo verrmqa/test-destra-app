@@ -1,0 +1,49 @@
+@media screen and (max-width: 450px) {
+
+  .docCardHeader__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .docCardHeader__pricing {
+    position: relative;
+  }
+
+  .docCardHeader__pricing__section-title {
+    margin-bottom: 0.6944rem;
+  }
+  .docCardHeader__pricing__section-promocode--inherit {
+    position: inherit;
+  }
+
+  .docCardHeader__pricing__section-promocode--absolute {
+    position: absolute;
+    right: 0;
+    top: 2.2rem;
+  }
+
+  .docCardHeader__advantages {
+    width: 100%;
+  }
+
+  .docCardHeader__advantages__section-list {
+    padding-left: 0;
+  }
+
+  .docCardHeader__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.6944rem;
+  }
+
+  .docCardHeader__list__item {
+    margin-right: 1.3889rem;
+    margin-top: 0.6944rem;
+  }
+
+  .docCardHeader__pricing__section-price {
+    margin-bottom: 1.3889rem;
+  }
+}

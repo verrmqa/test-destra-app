@@ -1,0 +1,11 @@
+@media screen and (max-width: 450px) {
+  .deck {
+    display: flex;
+    padding: 13vh 0 5rem 11rem;
+  }
+  .deck__card {
+    width: 8rem;
+    height: 10rem;
+    box-shadow: none;
+  }
+}

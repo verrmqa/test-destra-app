@@ -1,0 +1,54 @@
+.inputHoverLink{
+  padding: 0.6944rem;
+  background: #F4F4F4;
+  border-radius: 0.1389rem;
+  border: .069rem solid #e2e5e7;
+  width: 14.0278rem;
+  height: 3.4722rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.inputHoverLink__section-title {
+  padding-bottom: 0.2778rem;
+}
+
+.inputHoverLink__title {
+  font-size: 0.8333rem;
+  line-height: 0.8333rem;
+  color: #777777;
+  cursor: pointer;
+  user-select: none;
+}
+
+.inputHoverLink__link {
+  text-decoration: none;
+  color: #5E9CDF;
+  opacity: 0.6;
+  font-size: 0.6944rem;
+  line-height: 0.8333rem;
+  cursor: pointer;
+}
+.inputHoverLink__link:hover {
+  opacity: 1;
+}
+
+.inputHoverLink::before{
+  content: '';
+  border-style: solid;
+  border: 6px solid transparent; 
+  border-left: 12px solid #F4F4F4;
+  position: absolute;
+  bottom: -5px;
+  left: 1px;
+  z-index: 1;
+}
+
+.inputHoverLink::after {
+  content: '';
+  border: 7px solid transparent;
+  border-left: 13px solid #e2e5e7;
+  position: absolute;
+  bottom: -7px;
+  left: 0px;
+}

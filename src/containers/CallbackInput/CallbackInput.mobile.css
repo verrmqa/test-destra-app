@@ -1,0 +1,26 @@
+@media screen and (max-width:450px) {
+  .callback-input__section-field{
+    margin: unset;
+  }
+
+  .callback-input{
+    width: 100%;
+  }
+
+  .callback-input__section-list{
+    background-color: #F2F2F2;
+  }
+
+  .callback-input__section-field{
+    height: unset;
+  }
+
+  .callback-input__field{
+    padding: 0.5555rem 1rem;
+  }
+  
+  .callback-input__section-icon {
+    top: .7rem;
+    right: .7rem;
+}
+}

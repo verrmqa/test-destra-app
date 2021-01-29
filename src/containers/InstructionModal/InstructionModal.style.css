@@ -1,0 +1,4 @@
+.stage__modal .modal__body__section-title,
+.stage__modal .modal__body__section-description{
+    display: none;
+}

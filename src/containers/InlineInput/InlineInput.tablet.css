@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px) { 
+  .inline-input__window{
+    right: unset;
+    left: unset;
+    width: 80vw;
+  }
+  
+  .inline-input__window__section-area {
+    width: 35rem;
+  }
+}

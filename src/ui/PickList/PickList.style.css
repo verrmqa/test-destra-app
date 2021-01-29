@@ -1,0 +1,46 @@
+.pick-list__item{
+  height: 3.75rem;
+  border-radius: 0.2083rem;
+  background-color: #ffffff;
+  padding: 0 1.1111rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 0 0.5556rem 0;
+}
+
+.pick-list__item:last-child{
+  margin: unset;
+}
+
+.pick-list__item:hover{
+  background-color:rgba(94, 156, 223, 0.1);
+  cursor: pointer;
+}
+
+.pick-list__item:hover .pick-list__title{
+  color: #5E9CDF;
+}
+
+.pick-list__title{
+  font-size: 0.9722rem;
+  line-height: 1.25rem;
+  padding: 0 0 0.1389rem 0;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.pick-list__description{
+  font-size: 0.8333rem;
+  line-height: 1.0417rem;
+  opacity: 0.6;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,66 @@
+@media screen and (max-width:450.9px){
+  .modal__section-body {
+    width: 95%;
+    padding: 1.3784rem 0.875rem;
+    top: 1rem;
+  }
+
+  .modal__section--medium {
+    min-width: unset;
+  }
+
+  .modal__body-fixed {
+    padding: 1rem;
+  }
+
+  .modal__body__section-close{
+    top: -3rem;
+    right: .5rem;
+  }
+
+  .modal__close{
+    border:.0625rem solid #ffffff;
+  }
+  .modal__close__src .icon__zone{
+    stroke: #ffffff;
+  }
+
+  .modal__section--calc .modal__body__section-close {
+    top: 1.5rem;
+    right: 1rem;
+  }
+      
+  .modal__section--subscription{
+    padding: 0;
+  }
+
+  .modal__body-bluehead .modal__body__section-content{
+    padding: 1.3889rem;
+  }
+
+  .modal__section--bluehead{
+    padding: 0;
+  }
+
+  .modal__body-bluehead .modal__body__section-title{
+    padding: 1.6667rem 1.3889rem;
+  }
+
+  .modal__body-bluehead .modal__body__section-close{
+    top: -3rem;
+    right: .5rem;
+  }
+
+  .modal__body-bluehead .modal__body__section-title .title{
+    font-size: 1.1111rem;
+    line-height: 1.5278rem;
+    width: auto;
+  }
+
+  .modal__section--postpayment {
+    width: 24.6528rem;
+    padding: 2.0833rem 1.3889rem 2.0833rem 1.3889rem;
+    height: 31.5972rem;
+  }
+
+}

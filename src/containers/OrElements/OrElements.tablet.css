@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px) {
+
+  .or-elements__item__section-element .button--link {
+    background-color: #e2e5e7;
+  }
+
+  .or-elements__item__section-text {
+    max-width: 23.0833rem;
+  }
+
+  .or-elements .button {
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    padding: 0.8333rem 1.7rem;
+  }
+  .or-elements__item__section-button{
+    width: auto;
+  }
+  .or-elements__edit__section-title{
+    padding: 0;
+    margin-right: auto;
+  }
+  .or-elements__edit__section-return{
+    width: 18.0556rem;
+    padding: 0 1.3889rem 0 0;
+  }
+  .or-elements__edit__section-new{
+    width: 10.4167rem;
+  }
+}
