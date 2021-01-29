@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/test-destra-app/static/css/main.f0e396f4.chunk.css",
+    "main.js": "/test-destra-app/static/js/main.e05c1a0b.chunk.js",
+    "main.js.map": "/test-destra-app/static/js/main.e05c1a0b.chunk.js.map",
+    "runtime-main.js": "/test-destra-app/static/js/runtime-main.be44519a.js",
+    "runtime-main.js.map": "/test-destra-app/static/js/runtime-main.be44519a.js.map",
+    "static/css/2.0440f8c5.chunk.css": "/test-destra-app/static/css/2.0440f8c5.chunk.css",
+    "static/js/2.0f81506c.chunk.js": "/test-destra-app/static/js/2.0f81506c.chunk.js",
+    "static/js/2.0f81506c.chunk.js.map": "/test-destra-app/static/js/2.0f81506c.chunk.js.map",
+    "static/js/3.c228368e.chunk.js": "/test-destra-app/static/js/3.c228368e.chunk.js",
+    "static/js/3.c228368e.chunk.js.map": "/test-destra-app/static/js/3.c228368e.chunk.js.map",
+    "index.html": "/test-destra-app/index.html",
+    "static/css/2.0440f8c5.chunk.css.map": "/test-destra-app/static/css/2.0440f8c5.chunk.css.map",
+    "static/css/main.f0e396f4.chunk.css.map": "/test-destra-app/static/css/main.f0e396f4.chunk.css.map",
+    "static/js/2.0f81506c.chunk.js.LICENSE.txt": "/test-destra-app/static/js/2.0f81506c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be44519a.js",
+    "static/css/2.0440f8c5.chunk.css",
+    "static/js/2.0f81506c.chunk.js",
+    "static/css/main.f0e396f4.chunk.css",
+    "static/js/main.e05c1a0b.chunk.js"
+  ]
+}
