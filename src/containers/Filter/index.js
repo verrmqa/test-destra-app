@@ -11,6 +11,9 @@ import Control from '../Control';
 import Button from '../../ui/Button';
 
 const Filter = ({ values, handleChange, filter, type }) => {
+  /* console.log(values)
+  console.log(filter)
+  console.log(type) */
   const [itemsShown, handleShownItems] = useState(values.length);
   const isMobile = typeof window !== 'undefined' && window.innerWidth <= 1024;
   let index = 0;

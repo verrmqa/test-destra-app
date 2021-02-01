@@ -1,0 +1,9 @@
+version: '3'
+services: 
+  vk-instructions:
+    build: '.'
+    volumes: 
+      - './src:/app/src'
+    command: npm run start
+    ports: 
+      - 3000:3000
