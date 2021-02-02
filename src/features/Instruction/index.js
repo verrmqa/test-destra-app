@@ -7,6 +7,10 @@ import Render from '../../containers/Render';
 import Filter from '../../containers/Filter';
 import Stage from '../../containers/Stage';
 
+import './Instruction.style.css';
+import './Instruction.widescreen.css';
+import './Instruction.tablet.css';
+import './Instruction.mobile.css';
 
 function Instruction() {
     const [instruction, setInstruction] = useState();

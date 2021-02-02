@@ -1,0 +1,160 @@
+@media screen and (max-width: 1024px) {
+  .instruction {
+    padding: 7rem 0 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: unset;
+  }
+
+  .instruction__section-content {
+    width: 100%;
+    margin: 0 0.6944rem 0.9722rem;
+    width: 51.9444rem;
+    position: relative;
+    padding: 0;
+  }
+  .instruction__header__section-overlay {
+    background-image: linear-gradient(64deg, #25292b, rgba(61, 63, 65, 0));
+  }
+  .sticky-outer-wrapper {
+    width: 100%;
+  }
+
+  .instruction__section-breadcrumbs {
+    display: none;
+  }
+
+  .instruction__section-socials {
+    width: 100%;
+    z-index: unset;
+    padding: unset;
+    position: unset;
+    order: 4;
+  }
+
+  .instruction__icon {
+    width: 1rem;
+    margin-right: 0.6875rem;
+  }
+
+  .instruction .container {
+    display: flex;
+    flex-direction: column;
+    padding: unset;
+  }
+  .instruction__section-contents {
+    position: fixed;
+    bottom: 1.8rem;
+    width: 48.6111rem;
+    z-index: 2;
+  }
+
+  .instruction__header {
+    border-radius: unset;
+  }
+
+  .instruction__content__section-stages{
+    padding: 0 1.6667rem;
+  }
+
+  .instruction__content__section-intro{
+    padding: 0 1.6667rem 1.6667rem;
+  }
+
+  .instruction__content__section-docs{
+    padding: 1.1111rem 2.4305rem 0;
+  }
+
+  .instruction__head__background{
+    min-width: 39.2639rem;
+  }
+
+  .instruction__head__section-breadcrumbs{
+    display: none;
+  }
+
+  .instruction__head__title{
+    font-size: 1.6667rem;
+    line-height: 2.0833rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    padding: 0 0 1.0417rem 0;
+  }
+
+  .instruction__head__title--block{
+    display: inline;
+    font-weight: inherit;
+    font-family: inherit;
+  }
+  .instruction__head__section-content{
+    max-width: 95%;
+  }
+
+  .instruction__head__section-phone{
+    display: none;
+  }
+
+  .instruction__head__step::before{
+    content: unset;
+  }
+  .instruction__head__step{
+    background-color: #ffffff;
+    color: #1e1e1e;
+  }
+
+  .instruction__head__step--bold{
+    color: #5e9cdf;
+  }
+
+  .instruction__section-title{
+    padding: 2.7778rem 2.2917rem 0;
+  }
+
+  .instruction__stages{
+    padding: 0 0 2.5rem;
+  }
+
+  .instruction__content__section-statistics{
+    padding: 2.0833rem;
+  }
+  .instruction__section-head{
+    display: none;
+  }
+
+  .instruction__content__section-video{
+    padding: 0 1.6667rem 4.1667rem;
+  }
+
+  .instruction__section-promoFilter{
+    width: 100%;
+    margin: 1rem 0 0 0;
+  }
+
+  .instruction__section-notification {
+    position: fixed;
+    left: 1.3889rem;
+    bottom: 1.3889rem;
+  }
+  .instruction__content__section-lawyerHelp{
+    padding: 0 2.0833rem;
+  }
+
+  .instruction__content__section-share{
+    padding: 0 1.6667rem 1.6667rem;
+  }
+  
+  .instruction__section-banner{
+    padding: 0 2.3611rem;
+  }
+
+  .instruction__section-filter{
+    width: 51.9444rem;
+    box-sizing: border-box;
+    padding: 1.6667rem;
+    margin: 2.7778rem 0.6944rem 0.9722rem;
+  }
+
+  .instruction__content__help{
+    padding: 1.6667rem 1.6667rem 1.1111rem;
+  }
+}

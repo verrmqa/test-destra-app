@@ -1,0 +1,138 @@
+@media screen and (max-width: 450px) {
+  .instruction {
+    padding: 4.24rem 0 0 0;
+  }
+
+  .instruction__filter {
+    padding: 1rem;
+  }
+
+  .instruction__header {
+    padding: 1.6666rem 1.1111rem;
+    background-size: cover;
+  }
+
+  .instruction__filter__section {
+    margin: 0 0 1rem;
+  }
+
+  .instruction__filter__section:nth-child(3) {
+    margin-top: unset;
+  }
+
+  .instruction__filter__section--toggle {
+    padding-bottom: unset;
+  }
+
+  .instruction__icon {
+    width: 0.94rem;
+    height: 0.81rem;
+    padding-right: 0.68rem;
+  }
+
+  .instruction__section-contents {
+    width: 23.819rem;
+  }
+
+  .instruction__section-filter{
+    width: 26.0417rem;
+    margin: 0 0 1.3889rem;
+  }
+
+  .instruction__content__help{
+    padding: 1.5278rem 1.1111rem 1.3889rem;
+  }
+
+  .instruction__section-content{
+    width: 26.0417rem;
+    margin: 0;
+  }
+
+  .instruction__filter__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #adb5bd;
+    padding-right: 1rem;
+    font-weight: 500;
+    max-width: 16.1111rem;
+  }
+
+  .instruction__content__section-stages {
+    padding: 0;
+  }
+
+  .instruction__content__section-intro {
+    padding: 0 1.1111rem 0;
+  }
+
+  .instruction__stages {
+    padding: 1.1111rem;
+  }
+  
+  .instruction__content__section-docs {
+    padding: 1.1111rem 1.1111rem 0;
+  }
+
+  .instruction__docs__title {
+    color: #adb5bd;
+    text-transform: uppercase;
+    font-size: 0.9027rem;
+    font-weight: 600;
+  }
+  .instruction__stages__section-lock{
+    padding: 1.1111rem;
+  }
+
+  .instruction__section-title {
+    padding: 2rem 1rem;
+  }
+
+  .instruction__head__background{
+    display: none;
+  }
+  .instruction__section-head{
+    height: 19.7917rem;
+    padding: 1.3889rem 1.5278rem;
+    /* background-image: linear-gradient(196deg,rgba(94, 156, 223, .9) 108%, #5e9cdf 5%), url('/assets/images/content/instruction__head.png'); */
+  }
+  .instruction__head__section-content{
+    max-width: 100%;
+  }
+
+  .instruction__head__step{
+    width: 100%;
+    margin: 0 0 0.6944rem 0;
+    padding: 0.6944rem .9028rem;
+  }
+
+  .instruction__head__step--bold{
+    display: inline;
+  }
+
+  .instruction__content__section-statistics{
+    padding: 2.0833rem 0;
+  }
+  .instruction__section-head--hide{
+    display: none;
+  }
+
+  .instruction__content__section-video {
+    padding: 0 0 4.1667rem;
+  }
+
+  .instruction__section-notification{
+    left: .7rem;
+    bottom: .7rem;
+  }
+
+  .instruction__content__section-lawyerHelp{
+    padding: 1.1111rem 1.1111rem 0;
+  }
+  .instruction__section-banner{
+    padding: 0 1.1111rem;
+  }
+  .instruction__content__section-share{
+    padding: 0 1.1111rem 1.6667rem;
+  }
+}
